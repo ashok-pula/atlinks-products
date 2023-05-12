@@ -1,0 +1,96 @@
+.productContainer {
+  padding-left: 10px;
+  position: relative;
+}
+.productHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productHeading {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(199, 194, 194, 0.123);
+  padding: 5px;
+  border-radius: 5px;
+}
+.inputContainer > input {
+  border: none;
+  outline: none;
+  background-color: rgba(252, 249, 249, 0.123);
+  color: black;
+}
+.searchIcon {
+  color: rgb(204, 202, 202);
+  font-size: 20px !important;
+}
+.productBox {
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(189, 176, 176);
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.product {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid rgb(82, 73, 73);
+}
+.productImage {
+  width: 80px;
+  object-fit: contain;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+.favorite {
+  position: absolute;
+  color: red;
+  right: 10px;
+  top: 10px;
+}
+
+.productDescription {
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+.description {
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.lorem {
+  font-size: 10px;
+  margin-left: 10px;
+  color: rgb(100, 69, 69);
+}
+.noproduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}

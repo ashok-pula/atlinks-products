@@ -1,0 +1,38 @@
+.subcategoryContainer {
+  margin-top: 20px;
+}
+.subcategoryList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.subcategory {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid black;
+}
+.subcategoryImage {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  object-fit: contain;
+}
+.subcategoryName {
+  position: absolute;
+  bottom: -2px;
+  color: black;
+  left: 20px;
+  font-weight: bold;
+}
+.nosubcategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}

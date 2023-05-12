@@ -1,0 +1,94 @@
+.singleproduct {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  -webkit-box-shadow: -79px -80px 15px -78px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -79px -80px 15px -78px rgba(0, 0, 0, 0.75);
+  box-shadow: -79px -80px 15px -78px rgba(0, 0, 0, 0.75);
+}
+.singleOrderList {
+  padding-left: 2px;
+  border-left: 1px dotted black;
+}
+.closebutton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.singleProductDetails {
+  padding-left: 20px;
+  position: relative;
+}
+.singleproductImage {
+  width: 300px;
+  height: 200px;
+  border-right: 3px solid black;
+}
+.socialIcon {
+  position: absolute;
+  top: 70px;
+  right: 100px;
+  color: red;
+}
+.singleProductPrice {
+  font-weight: bold;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.singleProductDescription > span {
+  color: rgb(80, 65, 65);
+}
+.singleProductPrice > p {
+  margin: 0;
+}
+.colorDescription,
+.packageDescription {
+  font-weight: bold;
+}
+.checkboxOrder {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.addorderButton {
+  padding: 5px 40px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  border: 0.5px solid rgb(194, 90, 90);
+  color: rgb(194, 90, 90);
+}
+.addbuttonContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colorsList,
+.packingList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.colors,
+.packings {
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 2px 15px;
+  border-radius: 5px;
+}
+.colorsActive {
+  border: 0.5px solid rgb(194, 90, 90);
+  color: rgb(194, 90, 90);
+}

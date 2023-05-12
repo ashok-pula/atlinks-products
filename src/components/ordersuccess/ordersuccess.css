@@ -1,0 +1,26 @@
+.ordersuccess {
+  position: absolute;
+
+  padding: 20px;
+  top: 70%;
+  left: 40%;
+  z-index: 99999;
+  background-color: rgb(169, 206, 169);
+  border-radius: 10px;
+}
+.ordersuccessheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+.ordersuccessclose {
+  cursor: pointer;
+  color: rgb(233, 63, 63);
+  border: 1px solid red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+}

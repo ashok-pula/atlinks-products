@@ -1,0 +1,147 @@
+.cartHeading {
+  display: flex;
+  padding: 10px 20px;
+  background-color: rgba(167, 148, 148, 0.123);
+  gap: 80px;
+}
+.editarrow {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+.noitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+}
+.cartContainer {
+  margin: 2px;
+  padding: 5px;
+}
+.cartDetailsList {
+  display: flex;
+  margin-left: 10px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.cartprice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.closecart {
+  cursor: pointer;
+}
+.cartLogo {
+  width: 25px;
+  height: 25px;
+}
+.cartLogoDetails {
+  display: flex;
+  align-items: center;
+}
+.cartNames {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 2px;
+}
+.cartName {
+  font-weight: bold;
+  font-size: 12px;
+}
+.cartDescription {
+  font-size: 8px;
+  color: rgb(197, 170, 170);
+}
+.seeall {
+  text-align: center;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.otherInstructions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(240, 238, 238);
+  margin: 0;
+  height: 30px;
+}
+.addinstruction {
+  display: flex;
+  align-items: center;
+  color: red;
+  cursor: pointer;
+  justify-content: center;
+}
+.dottedline {
+  margin: 20px;
+  border: 0.5px dotted rgb(214, 205, 205);
+}
+.purchaseorder {
+  margin-top: 10px;
+}
+
+.ordernumber {
+  background-color: rgb(240, 238, 238);
+  margin: 20px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.addressesview {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+.viewarrow {
+  display: flex;
+  align-items: center;
+  color: red;
+  cursor: pointer;
+}
+.addressoffice {
+  color: gray;
+}
+.itemspriceContainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.itemsprice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+.clearcart {
+  margin-top: 20px;
+}
+.clearbutton {
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.orderbutton {
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(219, 81, 81);
+}

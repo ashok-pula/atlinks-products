@@ -1,0 +1,76 @@
+.categoryContainer {
+  padding-left: 10px;
+}
+.categoryHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(199, 194, 194, 0.123);
+  padding: 5px;
+  border-radius: 5px;
+}
+.inputContainer > input {
+  border: none;
+  outline: none;
+  background-color: rgba(252, 249, 249, 0.123);
+  color: black;
+}
+.searchIcon {
+  color: rgb(204, 202, 202);
+  font-size: 20px !important;
+}
+.categoryBox {
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(189, 176, 176);
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.categoryList {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  width: 600px;
+
+  display: flex;
+  flex-wrap: no-wrap;
+  overflow-x: auto;
+  margin: 20px;
+}
+
+.category {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100px;
+  max-width: 100%;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  padding: 5px;
+}
+
+.categoryImage {
+  object-fit: cover;
+  width: 100%;
+}
+.categoryName {
+  position: absolute;
+  bottom: -10px;
+  color: white;
+  font-size: 13px;
+}
+.horizantalLine {
+  margin: 5px 5px;
+}

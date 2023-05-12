@@ -1,0 +1,112 @@
+.navbar {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbarWrapper {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarLeft {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.navbarRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 70px;
+}
+.navbarLogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.navbarText {
+  font-size: 8px;
+  font-weight: bold;
+}
+.navbarSearchContainer {
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: rgba(199, 194, 194, 0.123);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.searchIcon {
+  color: rgb(204, 202, 202);
+  font-size: 20px !important;
+}
+.navbarSearch {
+  border: none;
+  outline: none;
+  width: 80%;
+  padding: 5px;
+  background-color: rgba(252, 249, 249, 0.123);
+  color: black;
+}
+.navbarSearch::placeholder {
+  color: black;
+}
+
+.navbarImg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.navbarProfileImg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.navbarCheckout {
+  display: flex;
+  align-items: center;
+}
+.navbarButton {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addcart {
+  margin-right: 10px;
+  font-size: 20px !important;
+}
+.navbarUserprofile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbarUsername {
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.navbarUseradmin {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.navbaremail {
+  font-size: 10px;
+  color: gray;
+}
+.angle-down {
+  margin-left: 5px;
+}
